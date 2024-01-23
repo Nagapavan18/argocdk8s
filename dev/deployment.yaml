@@ -13,7 +13,7 @@ spec:
         app: argocdone
     spec:
       containers:
-        - name: argocdcon
-          image: narendrapujanaboyina/k8s:2
+        - name: pavan
+          image: pavan923/k8s:2
           ports:
           - containerPort: 5000
