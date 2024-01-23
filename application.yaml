@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/narendrapb/argocdk8s.git
+    repoURL: https://github.com/Nagapavan18/argocdk8s.git
     targetRevision: HEAD
     path: dev
   destination:
