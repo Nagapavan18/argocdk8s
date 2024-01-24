@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: pavan
-          image: pavan923/k10s:11
+          image: pavan923/k10s:12
           ports:
           - containerPort: 5000
