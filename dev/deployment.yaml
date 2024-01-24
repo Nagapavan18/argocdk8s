@@ -12,6 +12,8 @@ spec:
       labels:
         app: argocdone
     spec:
+      imagePullSecrets: 
+        - name: docker-sec
       containers:
         - name: pavan
           image: pavan923/k10s:12
