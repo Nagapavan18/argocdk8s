@@ -5,6 +5,8 @@ metadata:
 spec:
   selector:
     app: argocdone
+  type: "NodePort"
   ports:
   - port: 5000
     targetPort: 5000
+    NodePort: 31000
