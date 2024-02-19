@@ -16,6 +16,6 @@ spec:
         - name: docker-sec
       containers:
         - name: pavan
-          image: pavan924/k8s:4
+          image: pavan924/k8s:10
           ports:
           - containerPort: 5000
